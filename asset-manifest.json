@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-recipe-book/static/css/main.7915a60c.css",
+    "main.js": "/react-recipe-book/static/js/main.14206db6.js",
+    "static/js/787.ac45e4b4.chunk.js": "/react-recipe-book/static/js/787.ac45e4b4.chunk.js",
+    "static/media/chicken.jpeg": "/react-recipe-book/static/media/chicken.40cd4e3bd316268a7679.jpeg",
+    "static/media/bg-image.jpeg": "/react-recipe-book/static/media/bg-image.45635afc792a89fa82bc.jpeg",
+    "static/media/burger.jpeg": "/react-recipe-book/static/media/burger.e85ea4bccc44b785bbb8.jpeg",
+    "static/media/trotters.jpeg": "/react-recipe-book/static/media/trotters.c0deecb348513b8200e8.jpeg",
+    "static/media/cake.jpeg": "/react-recipe-book/static/media/cake.ff9f45f7af48da9733cb.jpeg",
+    "static/media/octopus.jpeg": "/react-recipe-book/static/media/octopus.66430c635516c3f88024.jpeg",
+    "static/media/about.jpeg": "/react-recipe-book/static/media/about.eaf9dc90a6b93df532e9.jpeg",
+    "static/media/ice-cream.jpeg": "/react-recipe-book/static/media/ice-cream.32bcb7344f1c97ead9e2.jpeg",
+    "static/media/logo-3.jpeg": "/react-recipe-book/static/media/logo-3.eba06b36ff885073f724.jpeg",
+    "index.html": "/react-recipe-book/index.html",
+    "main.7915a60c.css.map": "/react-recipe-book/static/css/main.7915a60c.css.map",
+    "main.14206db6.js.map": "/react-recipe-book/static/js/main.14206db6.js.map",
+    "787.ac45e4b4.chunk.js.map": "/react-recipe-book/static/js/787.ac45e4b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7915a60c.css",
+    "static/js/main.14206db6.js"
+  ]
+}
