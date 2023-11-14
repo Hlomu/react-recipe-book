@@ -37,7 +37,7 @@ const App = () => {
   const creamyChickenSteps = ["Season and sear chicken.", "Make creamy sauce by mixing chicken broth, heavy cream and parmesan cheese.", "Simmer chicken in creamy sauce", "Serve with pasta or rice"];
 
   const porkTrottersIngredients = ["Pork trotters", "Aromatic spices", "Chicken broth"];
-  const porkTrottersSteps = ["Sear pork trotters until brown.", "Season trotters with spices", "Simmer trotters in chicken broth for 2 hours"];
+  const porkTrottersSteps = ["Sear pork trotters until brown.", "Season trotters with spices", "Simmer trotters in chicken broth for 2 hours", "test"];
 
   return (
     <div className="app-container">
