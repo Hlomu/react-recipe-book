@@ -5,11 +5,13 @@ import Home from "./pages/home";
 import Menu from "./pages/Menu";
 import About from "./pages/About";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import RecipeDetailPage from "./RecipeDetailPage";
 /*import { Switch } from "@material-ui/core";*/
 
 function App() {
   return (
     <div className="App">
+      <RecipeDetailPage />
       <Router>
         <Navbar />
         <Routes>
