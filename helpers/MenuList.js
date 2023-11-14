@@ -11,19 +11,19 @@ import cheesecake from"../assets/cheesecake.jpg";
 export const MenuList = [
   {
     name: "Grilled Octopus",
-    image: Octopus,
+    image1: Octopus,
     description: "Tender, lightly seasoned and charred octopus that tastes amazing!",
      
   },
   {
     name: "Creamy Chicken",
-    image: ChickenPasta,
+    image2: ChickenPasta,
     description:
       "Succulent chicken bathed in a velvety cream sauce, perfectly balanced with the zing of lemon and capers.",
   },
   {
     name: "Pork Trotters ",
-    image: Trotters,
+    image3: Trotters,
     description:
       "A culinary masterpiece featuring succulent, slow-cooked trotters bathed in a symphony of aromatic spices",
   },

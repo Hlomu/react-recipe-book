@@ -1,10 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const RecipeDetail = ({ recipe, goBack }) => {
+  const { name } = recipe;
+
   return (
     <div>
-      <h1>Grilled Octopus</h1>
+      <h1>
+        <Link to = {`/recipe/${name.toLowerCase()}`}>
+          {name}
+        </Link>
+      </h1>
       <p>Tender, lightly seasoned and charred octopus that tastes amazing!</p>
       <p>Ingredients: </p>
       <ul><li>2 fresh octopus</li>
@@ -192,18 +199,11 @@ const RecipeDetail = ({ recipe, goBack }) => {
 <li>Freeze the cake for a couple of hours and then move to the fridge once set</li>
 <li>Cover the cake with more whipped cream and garnish with almond flakes and cherries</li>
     </ol>
-
-
-    </div>
     
-
-    
-
-
-
+</div>
     
   );
-  };
+  }
 
 
 export default RecipeDetail;

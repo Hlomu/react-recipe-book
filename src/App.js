@@ -5,7 +5,7 @@ import Home from "./pages/home";
 import Menu from "./pages/Menu";
 import About from "./pages/About";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-/*import { Switch } from "@material-ui/core";*/
+import RecipeDetail from "./RecipeDetail";
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         </Routes>
         <Footer />
       </Router>
+      
     </div>
   );
 }

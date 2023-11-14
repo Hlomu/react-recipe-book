@@ -1,10 +1,13 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
-function MenuItem({ image, name, description }) {
+const MenuItem = ({ image, name, description }) => {
   return (
     <div className="menuItem">
-      <a href="/"><div style={{ backgroundImage: `url(${image})` }}> </div></a>
       <h1> {name} </h1>
+     <Link to = {`/recipe/${name.toLowerCase()}`}>
+      <div style={{ backgroundImage: `url(${image})` }}> </div>
+     </Link>
       <p> {description} </p>
     </div>
   );
