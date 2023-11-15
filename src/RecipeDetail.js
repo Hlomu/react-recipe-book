@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 const RecipeDetail = ({ recipe, goBack }) => {
-  const { name } = recipe;
+    const { name, image , ingredients}  = recipe;
 
   return (
     <div>
@@ -12,16 +12,23 @@ const RecipeDetail = ({ recipe, goBack }) => {
           {name}
         </Link>
       </h1>
+        <Link to = {`/recipe/${name.toLowerCase()}`}>
+          <img src = {image} alt = {name} />
+        </Link>
       <p>Tender, lightly seasoned and charred octopus that tastes amazing!</p>
       <p>Ingredients: </p>
-      <ul><li>2 fresh octopus</li>
+      <ul>
+        {ingredients.map((ingredient, index) => (
+          <li key= {index}> {ingredient}</li>
+        ))}
+           <li>2 fresh octopus</li>
            <li>olive oil</li>
            <li>2 garlic cloves — , roughly chopped</li>
              <li>Juice from 1 lemon</li>
              <li>salt and pepper to taste</li>
               <li>1/2 tsp dried oregano</li> 
               <li>2 tsp chopped fresh parsley</li>  
-              </ul>
+      </ul>
         
       <p>Steps : </p>
       <ol>
