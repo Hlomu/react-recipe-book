@@ -4,20 +4,22 @@ import Footer from "./components/Footer";
 import Home from "./pages/home";
 import Menu from "./pages/Menu";
 import About from "./pages/About";
+import Details from "./details" ;
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import RecipeDetailPage from "./RecipeDetailPage";
+
 /*import { Switch } from "@material-ui/core";*/
 
 function App() {
   return (
     <div className="App">
-      <RecipeDetailPage />
+     
       <Router>
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/menu" exact element={<Menu />} />
           <Route path="/about" exact element={<About />} />
+          <Route path="/details" exact element={<Details />} />
         </Routes>
         <Footer />
       </Router>
