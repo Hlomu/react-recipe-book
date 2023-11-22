@@ -1,3 +1,4 @@
+
 import React from "react";
 
 function MenuItem({ image, name, description }) {
@@ -11,3 +12,5 @@ function MenuItem({ image, name, description }) {
 }
 
 export default MenuItem;
+
+

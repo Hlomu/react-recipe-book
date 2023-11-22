@@ -1,0 +1,25 @@
+.recipe-details {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in;
+  display: flex;
+  flex-direction: column;
+  }
+  .recipe-details h2,
+  .recipe-details h3,
+  .recipe-details ul,
+  .recipe-details ol {
+    margin: 10px;
+  }
+  .recipe-details ul,
+.recipe-details ol {
+  padding-left: 20px;
+}
+.recipe-details li {
+    margin: 5px 0;
+  }
+  

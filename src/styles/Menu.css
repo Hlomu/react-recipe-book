@@ -1,3 +1,4 @@
+/*
 .menu {
   width: 100%;
   height: auto;
@@ -6,11 +7,12 @@
   align-items: center;
   flex-direction: column;
 }
+*/
 .menu .menuTitle {
   font-family: cursive;
   font-size: 60px;
 }
-
+/*
 .menuList {
   width: 70vw;
   height: auto;
@@ -18,7 +20,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
 }
-
+*/
 /* MENU ITEM STYLING */
 
 .menuItem {
@@ -33,7 +35,7 @@
   transition: 0.3s ease-in;
   cursor: pointer;
 }
-
+/*
 .menuItem div {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -43,7 +45,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+*/
 .menuItem h1,
 .menuItem p {
   margin-left: 20px;
