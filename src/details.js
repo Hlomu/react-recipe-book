@@ -62,24 +62,13 @@ const RecipeDetails = ({ title, ingredients, preparationSteps }) => (
 
   return (
     <div className="app-container">
-    <div className="app-container">
-      {selectedRecipe ? (
-        <RecipeDetails
-          title={selectedRecipe.title}
-          ingredients={selectedRecipe.ingredients}
-          preparationSteps={selectedRecipe.preparationSteps}
-        />
-      ) : (
-        <>
-<div className="recipe-grid">
-        <RecipeCard
-            title="Grilled Octopus"
-            description="Tender, lightly seasoned and charred octopus that tastes amazing."
-            imageUrl={Octopus}
-            ingredients={grilledOctopusIngredients}
-            preparationSteps={grilledOctopusSteps}
-            onSelect={() => handleRecipeSelect({ title: "Grilled Octopus", ingredients: grilledOctopusIngredients, preparationSteps: grilledOctopusSteps })}
-          />
+      <RecipeCard
+        title="Grilled Octopus"
+        description="Tender, lightly seasoned and charred octopus that tastes amazing."
+        imageUrl={Octopus}
+        ingredients={grilledOctopusIngredients}
+        preparationSteps={grilledOctopusSteps}
+      />
 
           <RecipeCard
           title="Creamy Chicken"
@@ -90,46 +79,13 @@ const RecipeDetails = ({ title, ingredients, preparationSteps }) => (
           onSelect={() => handleRecipeSelect({ title: "Creamy Chicken", ingredients: creamyChickenIngredients, preparationSteps: creamyChickenSteps })}
         />
 
-        <RecipeCard
-            title="Pork Trotters"
-            description="A culinary masterpiece featuring succulent, slow-cooked trotters bathed in a symphony of aromatic spices."
-            imageUrl={Trotters}
-            ingredients={porkTrottersIngredients}
-            preparationSteps={porkTrottersSteps}
-            onSelect={() => handleRecipeSelect({ title: "Pork Trotters", ingredients: porkTrottersIngredients, preparationSteps: porkTrottersSteps })}
-          />
-
-        <RecipeCard
-            title="Italian Hamburger"
-            description="A mouthwatering fusion of succulent ground beef infused with aromatic Italian herbs and spices."
-            imageUrl={Burger}
-            ingredients={BurgerIngredients}
-            preparationSteps={BurgerSteps}
-            onSelect={() => handleRecipeSelect({ title: "Italian Burger", ingredients: BurgerIngredients, preparationSteps: BurgerSteps })}
-          />
-
-        <RecipeCard
-            title="Chocolate Cake"
-            description="Generously sandwiched between luscious chocolate ganache, creating a symphony of intense cocoa flavors."
-            imageUrl={Cake}
-            ingredients={CakeIngredients}
-            preparationSteps={CakeSteps}
-            onSelect={() => handleRecipeSelect({ title: "Chocolate Cake", ingredients: CakeIngredients, preparationSteps: CakeSteps })}
-          /> 
-
-        <RecipeCard
-            title="Ice Cream"
-            description="A timeless treat that marries velvety vanilla ice cream with swirls of fudgy chocolate and roasted peanuts."
-            imageUrl={IceCream}
-            ingredients={IceCreamIngredients}
-            preparationSteps={IceCreamSteps}
-            onSelect={() => handleRecipeSelect({ title: "Ice Cream", ingredients: IceCreamIngredients, preparationSteps: IceCreamSteps })}
-          />  
-</div>
-          </>
-      )}
-
-      </div>
+      <RecipeCard
+        title="Pork Trotters"
+        description="A culinary masterpiece featuring succulent, slow-cooked trotters bathed in a symphony of aromatic spices."
+        imageUrl={Trotters}
+        ingredients={porkTrottersIngredients}
+        preparationSteps={porkTrottersSteps}
+      />
     </div>
   );
 };
