@@ -1,7 +1,12 @@
 import React from 'react';
 import "./RecipeDetail.css";
 
-const RecipeDetails = ({ title, ingredients, preparationSteps }) => (
+
+// RecipeDetails component displays detailed information about a selected recipe
+// It includes the recipe title, ingredients, preparation steps, and a "Back to Menu" button
+// The onBack function is passed as a prop to handle the navigation back to the menu
+
+const RecipeDetails = ({ title, ingredients, preparationSteps, onBack }) => (
   <div className="recipe-details">
 <h2>{title}</h2>
     <h3>Ingredients</h3>
@@ -18,6 +23,9 @@ const RecipeDetails = ({ title, ingredients, preparationSteps }) => (
             <li key={index}>{step}</li>
           ))}
         </ol>
+        <button className="back-to-menu-button" onClick={onBack}>
+      Back to Menu
+    </button>
       </div>
     );
     

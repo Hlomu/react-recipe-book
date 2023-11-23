@@ -16,16 +16,14 @@ function Navbar() {
         <img src={Logo} alt="Logo" />
         <div className="hiddenLinks">
           <Link to="/"> Home </Link>
-          <Link to="/menu"> Menu </Link>
           <Link to="/about"> About </Link>
-          <Link to="/details"> Details </Link>
+          <Link to="/details"> Our Menu </Link>
         </div>
       </div>
       <div className="rightSide">
         <Link to="/"> Home </Link>
-        <Link to="/menu"> Menu </Link>
         <Link to="/about"> About </Link>
-        <Link to="/details"> Details </Link>
+        <Link to="/details"> Our Menu </Link>
 
         <button onClick={toggleNavbar}>
           <ReorderIcon />
